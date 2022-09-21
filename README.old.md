@@ -1,5 +1,5 @@
 # React Portfolio
- 
+
 AS AN employer looking for candidates with experience building single-page applications</br>
 I WANT to view a potential employee's deployed React portfolio of work samples</br>
 SO THAT I can assess whether they're a good candidate for an open position
