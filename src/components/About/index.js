@@ -7,9 +7,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const About = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate') 
+    const aboutArray = ['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']
     
     useEffect(() => {
-        return setTimeout(() => {
+        return setLetterClass(() => {
             setLetterClass('text-animate-hover')
         }, 3000)
     }, [])
@@ -20,7 +21,7 @@ const About = () => {
                 <h1>
                     <AnimatedLetters
                         letterClass={letterClass}
-                        strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+                        strArray={aboutArray}
                         idx={15}
                     />
                 </h1>
