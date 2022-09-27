@@ -1,8 +1,12 @@
 # React Portfolio
 
+## User Story
+
 AS AN employer looking for candidates with experience building single-page applications</br>
 I WANT to view a potential employee's deployed React portfolio of work samples</br>
 SO THAT I can assess whether they're a good candidate for an open position
+
+## Profile Criteria
 
 GIVEN a single-page application portfolio for a web developer</br>
 WHEN I load the portfolio</br>
@@ -28,4 +32,4 @@ THEN I receive a notification if I have entered an invalid email address</br>
 WHEN I am presented with the Resume section</br>
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies</br>
 WHEN I view the footer</br>
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
