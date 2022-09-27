@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons';
 
 
 const Contact = () => {
@@ -61,6 +63,12 @@ const Contact = () => {
                         </ul>
                         </form>
                     </div>
+                </div>
+
+                <div className="icon-container">
+                    <p>Let's get in touch!
+                        <FontAwesomeIcon icon={faEnvelopeOpenText} color="#d62828" />
+                    </p>
                 </div>
 
             </div>

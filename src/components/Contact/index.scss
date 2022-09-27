@@ -72,4 +72,20 @@
         color: black;
       }
     }
+}
+
+.icon-container {
+  position:absolute;
+  top: 50px;
+  right: 30%;
+  z-index: 999999;
+  width: 267px;
+  padding: 20px;
+  float: right;
+
+  p {
+    font-size: 25px;
+    color: #f77f00;
   }
+
+}
