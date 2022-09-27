@@ -38,17 +38,10 @@
     animation-delay: 1s;
 }
 
-.about-page, .contact-page {
-    .text-zone {
-        position: absolute;
-        left: 10%;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 35%;
-        vertical-align: middle;
-        display: table-cell;
-        max-height: 90%;
-
+.container.about-page, 
+.container.contact-page, 
+.container.portfolio-page {
+    
         h1 {
             font-size: 53px;
             font-family: 'Coolvetica';
@@ -100,6 +93,19 @@
                 animation-delay: 1.3s;
             }
         }
+    
+    
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 35%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+
+        
 
         .text-zone {
             position: absolute;
@@ -120,10 +126,18 @@
     }
 }
 
-.contact-page {
+.container.contact-page {
     .text-animate-hover {
         &:hover {
             color: #FCBF49;
         }
     } 
+}
+
+.container.portfolio-page {
+    .text-animate-hover {
+        &:hover {
+            color: #04A7FF;
+        }
+    }
 }

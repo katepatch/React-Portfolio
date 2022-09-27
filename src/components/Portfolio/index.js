@@ -17,11 +17,13 @@ const Portfolio = () => {
     return (
     <div className='container portfolio-page'>
         <h1 className="page-title">
-            <AnimatedLetters />
+            <AnimatedLetters 
                 letterClass={letterClass}
                 strArray={portArray}
                 idx={15}
+            />    
         </h1>
+        {/* <div>{renderPortfolio()}</div> */}
     </div>
     );  
 }
