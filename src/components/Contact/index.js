@@ -3,8 +3,7 @@ import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 
 const Contact = () => {
@@ -65,10 +64,25 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="icon-container">
-                    <p>Let's get in touch!
-                        <FontAwesomeIcon icon={faEnvelopeOpenText} color="#d62828" />
-                    </p>
+                <div className="info-map">
+                    Kate Patch
+                    <br />
+                    NSL, UT
+                    <br />
+                    <span>kate.patch@gmail.com</span>
+                    </div>
+                    <div className="map-wrap">
+                    <MapContainer center={[40.8486, -111.9069]} zoom={13} scrollWheelZoom={true}>
+                        <TileLayer
+                            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                        />
+                        <Marker position={[40.8486, -111.9069]}>
+                            <Popup>
+                            Hi There!
+                            </Popup>
+                        </Marker>
+                    </MapContainer>
                 </div>
 
             </div>
