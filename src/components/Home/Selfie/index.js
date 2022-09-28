@@ -1,15 +1,18 @@
 import "./index.scss";
-import Selfie from "../../../assets/images/selfie.png";
+import pic from '../../../assets/images/selfie.png'
 
-Selfie = () => {
+
+console.log(pic);
+
+const Selfie = () => {
   return (
     <div className="selfie-container">
       <img
         className="selfie-pic"
-        src={Selfie}
+        src={pic}
         alt="Me trying to show off my curly hair"
       />
-      <p>This is me. After a day in the ocean.</p>
+      <p>This is me.  After a day in the ocean.</p>
     </div>
   );
 };

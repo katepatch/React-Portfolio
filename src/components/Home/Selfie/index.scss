@@ -1,14 +1,29 @@
 .selfie-container {
-    z-index: 0;
-    width: 400px;
-    height: 609px;
-    position: absolute;
-    top: 0;
-    right: 15%;
-    bottom: 0;
-    left: auto;
-    margin: auto;
+  background: #d62828;
+  float: right;
+  width: 600px;
+  height: 800px;
+  margin-top: 25px;
+  margin-right: 300px;
+}
 
-
+.selfie-pic {
+    position: relative;
+    width: 600px;
+    height: 800px;
+    opacity: 0;
+    animation: backInRight 1s 1.2s;
+    animation-fill-mode: forwards;
+    border: 5px solid #d62828;
+    border-radius: 15px;
     
+}
+
+p {
+    font-family: 'Coolvetica', sans-serif;
+    font-size: 11px;
+    color: #EAE2B7;
+    letter-spacing: 1px;
+    animation: fadeIn 1s 1.8s backwards;
+    position: absolute;
 }
