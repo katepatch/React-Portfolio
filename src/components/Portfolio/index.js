@@ -2,6 +2,10 @@ import React from "react";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import { useEffect, useState } from "react";
+import portfolioData from '../../data/portfolio.json'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 
 const Portfolio = () => {
     
@@ -12,7 +16,36 @@ const Portfolio = () => {
         return setLetterClass(() => {
             setLetterClass('text-animate-hover')
         }, 3000)
-    }, [])
+    }, []);
+
+    const renderPortfolio = (portfolio) => {
+        return (
+            <div className="images-container">
+                {
+                    portfolio.map((port, idx) => {
+                        return (
+                            <div className="image-box" key={idx}>
+                                <img
+                                src={port.picture}
+                                className="portfolio-image"
+                                alt="portfolio" />
+                                <div className="card content">
+                                    <p className="title">{port.title}</p>
+                                    <h4 className="description">{port.description}</h4>
+                                    <a href={port.github} target='_blank' rel="noreferrer">
+                                        <FontAwesomeIcon icon={faGithub} color="#d62828" />
+                                    </a>
+                                    <a href={port.url !== null} target='_blank' rel="noreferrer">
+                                        <FontAwesomeIcon icon={faDesktop} color="#d62828" />
+                                    </a>
+                                </div>
+                            </div>
+                        )
+                    })
+                }
+            </div>
+        );
+    }
     
     return (
     <div className='container portfolio-page'>
@@ -23,7 +56,7 @@ const Portfolio = () => {
                 idx={15}
             />    
         </h1>
-        {/* <div>{renderPortfolio()}</div> */}
+        <div>{renderPortfolio(portfolioData.portfolio)}</div>
     </div>
     );  
 }
