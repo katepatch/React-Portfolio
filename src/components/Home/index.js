@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import LogoTitle from '../../assets/images/ktitle.png';
 import { Link } from 'react-router-dom';
-import Logo from './Logo'
+import Selfie from './Selfie'
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 
@@ -39,7 +39,7 @@ const Home = () => {
                 <h2>Full Stack</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
-            <Logo />
+            <Selfie />
         </div>
     )
 }
