@@ -1,0 +1,46 @@
+{
+    "portfolio": [
+        {
+            "picture": "/portfolio/MovieClub.png",
+            "title": "Movie Club",
+            "description": "JavaScript, Handlebars, HTML",
+            "github": "https://github.com/Firm-Tofu10/MovieClub",
+            "url": "https://movieclub3.herokuapp.com/login"
+        },
+        {
+            "picture": "/portfolio/EmployeeTracker.png",
+            "title": "Employee Tracker",
+            "description": "JavaScript, MySQL, Inquirer",
+            "github": "https://github.com/katepatch/Employee-Tracker-SQL",
+            "url": null
+        },
+        {
+            "picture": "/portfolio/JatebyKate.png",
+            "title": "JATE",
+            "description": "JavaScript, Progressive Web Application(PWA)",
+            "github": "https://github.com/katepatch/Text-Editor-PWA",
+            "url": "https://jatebykate.herokuapp.com/"
+        },
+        {
+            "picture": "/portfolio/MovieSearch.png",
+            "title": "Movie Search",
+            "description": "HTML, CSS, JavaScript",
+            "github": "https://github.com/EdwardMock/Group-Project-1-Movie",
+            "url": "https://edwardmock.github.io/Group-Project-1-Movie/"
+        },
+        {
+            "picture": "/portfolio/TeamProfile.png",
+            "title": "Team Profile Generator",
+            "description": "JavaScript, Object-Oriented Programming(OOP)",
+            "github": "https://github.com/katepatch/Team-Profile-Generator",
+            "url": null
+        },
+        {
+            "picture": "/portfolio/WorkDayScheduler.png",
+            "title": "Work Day Scheduler",
+            "description": "JavaScript, HTML, Third Party APIs",
+            "github": "https://github.com/katepatch/WorkdayPlanner",
+            "url": "https://github.com/katepatch/WorkdayPlanner/deployments/activity_log?environment=github-pages"
+        }
+    ]
+}
