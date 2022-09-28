@@ -10,12 +10,14 @@
     .logo {
         display: block;
         padding: 8px 0;
+       
     
         img {
             display: block;
             margin: 8px auto;
             width: 35px;
             height: auto;
+            border-radius: 10px;
     
             &.sub-logo {
                 width: 50px;
