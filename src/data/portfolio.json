@@ -36,10 +36,10 @@
             "url": null
         },
         {
-            "picture": "/portfolio/WorkDayScheduler.png",
+            "picture": "/portfolio/WorkDayPlanner.png",
             "title": "Work Day Scheduler",
             "description": "JavaScript, HTML, Third Party APIs",
-            "github": "https://github.com/katepatch/WorkdayPlanner",
+            "github": "https://github.com/katepatch/WorkayPlanner",
             "url": "https://github.com/katepatch/WorkdayPlanner/deployments/activity_log?environment=github-pages"
         }
     ]
