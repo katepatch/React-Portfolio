@@ -35,7 +35,7 @@ const Portfolio = () => {
                                     <a href={port.github} target='_blank' rel="noreferrer">
                                         <FontAwesomeIcon icon={faGithub} color="#d62828" />
                                     </a>
-                                    <a href={port.url !== null} target='_blank' rel="noreferrer">
+                                    <a href={port.url} target='_blank' rel="noreferrer">
                                         <FontAwesomeIcon icon={faDesktop} color="#d62828" />
                                     </a>
                                 </div>
