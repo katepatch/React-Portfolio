@@ -85,15 +85,25 @@
             }
         }
 
-        a.contact-link {
-            &:after {
-                content: 'CONTACT';
-            }
-        }
+       
 
         a.portfolio-link {
             &:after {
                 content: 'PORTFOLIO';
+                font-size: 7px;
+                font-weight: 500;
+            }
+        }
+
+        a.resume-link {
+            &:after {
+                content: 'RESUME';
+            }
+        }
+
+        a.contact-link {
+            &:after {
+                content: 'CONTACT';
             }
         }
 

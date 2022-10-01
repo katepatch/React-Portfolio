@@ -4,6 +4,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+
 const About = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate') 
@@ -33,7 +34,7 @@ const About = () => {
                 </p>
                 <p>
                   What do I like outside of web development?  Well for one thing, dinosaurs.  I'm sure you spotted the t-rex skull up in the upper left hand corner.  But I also love spending time with my husband and two kids.  I love movies, true crime, puzzles, house plants, and LEGO, along with a whole bunch of other stuff.
-                </p>
+                  </p>
             </div>
 
             <div className="stage-cube-cont">
@@ -58,7 +59,7 @@ const About = () => {
             </div>
           </div>
         </div>
-
+        
         </div>
     )
 }
