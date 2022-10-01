@@ -32,10 +32,10 @@ const Portfolio = () => {
                                 <div className="card content">
                                     <p className="title">{port.title}</p>
                                     <h4 className="description">{port.description}</h4>
-                                    <a href={port.github} target='_blank' rel="noreferrer">
+                                    <a href={port.github} target='_blank' rel="noreferrer" className="btn">
                                         <FontAwesomeIcon icon={faGithub} color="#d62828" />
                                     </a>
-                                    <a href={port.url} target='_blank' rel="noreferrer">
+                                    <a href={port.url} target='_blank' rel="noreferrer" className="btn">
                                         <FontAwesomeIcon icon={faDesktop} color="#d62828" />
                                     </a>
                                 </div>
