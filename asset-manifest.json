@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.67d74e1a.css",
-    "main.js": "/React-Portfolio/static/js/main.04e10db6.js",
+    "main.css": "/React-Portfolio/static/css/main.37ccb843.css",
+    "main.js": "/React-Portfolio/static/js/main.b17c9afa.js",
     "static/media/selfie.png": "/React-Portfolio/static/media/selfie.b6ea2d6da814ada2a394.png",
     "static/media/ktitle.png": "/React-Portfolio/static/media/ktitle.7cea1a3dbf9a3b491a77.png",
     "static/media/katelogo2.png": "/React-Portfolio/static/media/katelogo2.21156070bdd55e868210.png",
@@ -11,11 +11,11 @@
     "static/media/CoolveticaRg-Regular.woff": "/React-Portfolio/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
     "static/media/CoolveticaRg-Regular.woff2": "/React-Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/React-Portfolio/index.html",
-    "main.67d74e1a.css.map": "/React-Portfolio/static/css/main.67d74e1a.css.map",
-    "main.04e10db6.js.map": "/React-Portfolio/static/js/main.04e10db6.js.map"
+    "main.37ccb843.css.map": "/React-Portfolio/static/css/main.37ccb843.css.map",
+    "main.b17c9afa.js.map": "/React-Portfolio/static/js/main.b17c9afa.js.map"
   },
   "entrypoints": [
-    "static/css/main.67d74e1a.css",
-    "static/js/main.04e10db6.js"
+    "static/css/main.37ccb843.css",
+    "static/js/main.b17c9afa.js"
   ]
 }
