@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
-import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Selfie from './Selfie/index'
+
 
 
 const About = () => {
@@ -36,30 +36,9 @@ const About = () => {
                   What do I like outside of web development?  Well for one thing, dinosaurs.  I'm sure you spotted the t-rex skull up in the upper left hand corner.  But I also love spending time with my husband and two kids.  I love movies, true crime, puzzles, house plants, and LEGO, along with a whole bunch of other stuff.
                   </p>
             </div>
+            {<Selfie />}
+            
 
-            <div className="stage-cube-cont">
-          <div className="cubespinner">
-            <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-            </div>
-            <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-            </div>
-            <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-            </div>
-          </div>
-        </div>
-        
         </div>
     )
 }

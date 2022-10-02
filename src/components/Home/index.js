@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react'
 import LogoTitle from '../../assets/images/ktitle.png';
 import { Link } from 'react-router-dom';
-import Selfie from './Selfie'
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
+import { faNodeJs, faCss3, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHippo } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -41,7 +43,28 @@ const Home = () => {
                     <Link to="/contact" className='flat-button'>CONTACT ME</Link>
                 </div>
             </div>
-            {<Selfie />}
+            <div className="stage-cube-cont">
+          <div className="cubespinner">
+            <div className="face1">
+              <FontAwesomeIcon icon={faNodeJs} color="#215732" />
+            </div>
+            <div className="face2">
+              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+            </div>
+            <div className="face3">
+              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+            </div>
+            <div className="face4">
+              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+            </div>
+            <div className="face5">
+              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={faHippo} color="#ff4d6d" />
+            </div>
+          </div>
+        </div>
         </div>
     )
 }
