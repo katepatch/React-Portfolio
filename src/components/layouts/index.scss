@@ -40,7 +40,8 @@
 
 .container.about-page, 
 .container.contact-page, 
-.container.portfolio-page {
+.container.portfolio-page
+.container.resume-page {
     
         h1 {
             font-size: 53px;
@@ -126,6 +127,14 @@
     .text-animate-hover {
         &:hover {
             color: #04A7FF;
+        }
+    }
+}
+
+.container.resume-page {
+    .text-animate-hover {
+        &:hover {
+            color: #921763;
         }
     }
 }
