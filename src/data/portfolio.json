@@ -8,11 +8,11 @@
             "url": "https://movieclub3.herokuapp.com/login"
         },
         {
-            "picture": "/portfolio/EmployeeTracker.png",
-            "title": "Employee Tracker",
-            "description": "JavaScript, MySQL, Inquirer",
-            "github": "https://github.com/katepatch/Employee-Tracker-SQL",
-            "url": null
+            "picture": "/portfolio/underatack.png",
+            "title": "Under-A-Tack",
+            "description": "JavaScript, GraphQL, React, Apollo",
+            "github": "https://github.com/Avenix17/Project-3-Under-a-tack",
+            "url": "https://underatackboard.herokuapp.com/"
         },
         {
             "picture": "/portfolio/JatebyKate.png",
