@@ -8,7 +8,37 @@ import Contact from './components/Contact'
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 
+// function App() {
+//   const [page] = useState(['home', 'about', 'contact', 'portfolio', 'resume'])
+//   const [currentPage, setCurrentPage] = useState(page[0]);
 
+//   function renderElement(currentPage) {
+//     switch(currentPage) {
+//       case 'home':
+//         return <Home />;
+//       case 'about':
+//         return <About />;
+//       case 'contact':
+//         return <Contact />;
+//       case 'portfolio':
+//         return <Portfolio />;
+//       case 'resume':
+//         return <Resume />;
+//       default: 
+//         return <Home />;
+//     }
+//   }
+
+//   return (
+//     <div>
+//       <Sidebar currentPage={currentPage} setCurrentPage={setCurrentPage} />
+//       <main>
+//         {renderElement(currentPage)}
+//       </main>
+//     </div>
+//   )
+
+// }
 
 function App() {
   return (
