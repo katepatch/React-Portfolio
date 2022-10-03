@@ -44,7 +44,7 @@ function App() {
   return (
     <div>
      <Routes>
-        <Route path="/React-Portfolio" element={<Layout />}>
+        <Route exact path="/React-Portfolio" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="portfolio" element={<Portfolio />} />
