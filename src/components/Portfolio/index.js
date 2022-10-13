@@ -8,6 +8,9 @@ import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import MovieClub from '../../assets/images/projects/MovieClub.png';
 import UnderATack from '../../assets/images/projects/UnderATack.png';
 import JatebyKate from '../../assets/images/projects/JatebyKate.png';
+import MovieSearch from '../../assets/images/projects/MovieSearch.png';
+import WorkPlanner from '../../assets/images/projects/WorkDayPlanner.png';
+import BookSearch from '../../assets/images/projects/googleBookSearch.jpg.png';
 
 const Portfolio = () => {
     
@@ -44,6 +47,30 @@ const Portfolio = () => {
             description: 'JavaScript, Progressive Web Application(PWA)',
             github: 'https://github.com/katepatch/Text-Editor-PWA',
             url: 'https://jatebykate.herokuapp.com/'
+        },
+        {
+            id: 3,
+            cover: MovieSearch,
+            title: 'Movie Search',
+            description: 'HTML, CSS, JavaScript, APIs',
+            github: 'https://github.com/EdwardMock/Group-Project-1-Movie',
+            url: 'https://edwardmock.github.io/Group-Project-1-Movie/'
+        },
+        {
+            id: 4,
+            cover: WorkPlanner,
+            title: 'Work Day Planner',
+            description: 'HTML, CSS, JavaScript, APIs',
+            github: 'https://github.com/katepatch/WorkdayPlanner',
+            url: 'https://katepatch.github.io/WorkdayPlanner/'
+        },
+        {
+            id: 5,
+            cover: BookSearch,
+            title: 'Google Books Search',
+            description: 'Apollo, GraphQL, MERN',
+            github: 'https://github.com/katepatch/Book-Search-Engine',
+            url: 'https://rocky-sea-41722.herokuapp.com/'
         }
     ]
 
