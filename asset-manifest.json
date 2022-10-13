@@ -1,12 +1,15 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.992d17d1.css",
-    "main.js": "/React-Portfolio/static/js/main.7a0980d0.js",
+    "main.js": "/React-Portfolio/static/js/main.73bb9de8.js",
     "static/media/UnderATack.png": "/React-Portfolio/static/media/UnderATack.2f557a41d86ceabcecff.png",
     "static/media/selfie.png": "/React-Portfolio/static/media/selfie.b6ea2d6da814ada2a394.png",
     "static/media/MovieClub.png": "/React-Portfolio/static/media/MovieClub.8e3d3641c060a962ad3d.png",
+    "static/media/googleBookSearch.jpg.png": "/React-Portfolio/static/media/googleBookSearch.jpg.22047d6cad66007b1866.png",
     "static/media/ktitle.png": "/React-Portfolio/static/media/ktitle.7cea1a3dbf9a3b491a77.png",
     "static/media/webdeveloperResume.png": "/React-Portfolio/static/media/webdeveloperResume.1c75378c5e4c159665b5.png",
+    "static/media/WorkDayPlanner.png": "/React-Portfolio/static/media/WorkDayPlanner.d3246b1076e9bfbaa9b0.png",
+    "static/media/MovieSearch.png": "/React-Portfolio/static/media/MovieSearch.8da166f33e5759edab37.png",
     "static/media/katelogo2.png": "/React-Portfolio/static/media/katelogo2.21156070bdd55e868210.png",
     "static/media/JatebyKate.png": "/React-Portfolio/static/media/JatebyKate.e6433232b97faee8ca5e.png",
     "static/media/helvetica-neu.ttf": "/React-Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -16,10 +19,10 @@
     "static/media/CoolveticaRg-Regular.woff2": "/React-Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/React-Portfolio/index.html",
     "main.992d17d1.css.map": "/React-Portfolio/static/css/main.992d17d1.css.map",
-    "main.7a0980d0.js.map": "/React-Portfolio/static/js/main.7a0980d0.js.map"
+    "main.73bb9de8.js.map": "/React-Portfolio/static/js/main.73bb9de8.js.map"
   },
   "entrypoints": [
     "static/css/main.992d17d1.css",
-    "static/js/main.7a0980d0.js"
+    "static/js/main.73bb9de8.js"
   ]
 }
