@@ -7,6 +7,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import MovieClub from '../../assets/images/projects/MovieClub.png';
 import UnderATack from '../../assets/images/projects/UnderATack.png';
+import JatebyKate from '../../assets/images/projects/JatebyKate.png';
 
 const Portfolio = () => {
     
@@ -36,6 +37,14 @@ const Portfolio = () => {
             github: 'https://github.com/Avenix17/Project-3-Under-a-tack',
             url: 'https://underatackboard.herokuapp.com/'
         },
+        {
+            id: 2,
+            cover: JatebyKate,
+            title: 'Jate By Kate',
+            description: 'JavaScript, Progressive Web Application(PWA)',
+            github: 'https://github.com/katepatch/Text-Editor-PWA',
+            url: 'https://jatebykate.herokuapp.com/'
+        }
     ]
 
     const renderPortfolio = (portfolio) => {

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
+import KateResume from '../../assets/images/webdeveloperResume.png';
 
 
 const Resume = () => {
@@ -26,7 +27,13 @@ const Resume = () => {
                 </h1>
                 
             </div>
-
+            <div className='resume-container'>
+                <img
+                    className='resume-pic'
+                    src={KateResume}
+                    alt="Web Developer Resume"
+                />
+            </div>
             
         </div>        
     )
