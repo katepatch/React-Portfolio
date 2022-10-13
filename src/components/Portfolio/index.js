@@ -2,10 +2,10 @@ import React from "react";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import { useEffect, useState } from "react";
-import portfolioData from '../../data/portfolio.json'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faDesktop } from "@fortawesome/free-solid-svg-icons";
+import MovieClub from '../../assets/images/projects/MovieClub.png';
 
 const Portfolio = () => {
     
@@ -18,18 +18,29 @@ const Portfolio = () => {
         }, 3000)
     }, []);
 
+    const projects = [
+        {
+            id: 0,
+            cover: MovieClub,
+            title: 'Movie Club',
+            description: 'MySQL, Handlebars, Sequelize',
+            github: 'https://github.com/Firm-Tofu10/MovieClub',
+            url: 'https://movieclub3.herokuapp.com/login'
+        }
+    ]
+
     const renderPortfolio = (portfolio) => {
         return (
             <div className="images-container">
                 {
-                    portfolio.map((port, idx) => {
+                    projects.map((port, idx) => {
                         return (
                             <div className="image-box" key={idx}>
                                 <img
-                                src={port.picture}
+                                src={port.cover}
                                 className="portfolio-image"
                                 alt="portfolio" />
-                                <div className="card content">
+                                <div className="content">
                                     <p className="title">{port.title}</p>
                                     <h4 className="description">{port.description}</h4>
                                     <a href={port.github} target='_blank' rel="noreferrer" className="btn">
@@ -56,7 +67,7 @@ const Portfolio = () => {
                 idx={15}
             />    
         </h1>
-        <div>{renderPortfolio(portfolioData.portfolio)}</div>
+        <div>{renderPortfolio(projects.portfolio)}</div>
     </div>
     );  
 }
