@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.992d17d1.css",
-    "main.js": "/React-Portfolio/static/js/main.73bb9de8.js",
-    "static/media/UnderATack.png": "/React-Portfolio/static/media/UnderATack.2f557a41d86ceabcecff.png",
-    "static/media/selfie.png": "/React-Portfolio/static/media/selfie.b6ea2d6da814ada2a394.png",
-    "static/media/MovieClub.png": "/React-Portfolio/static/media/MovieClub.8e3d3641c060a962ad3d.png",
-    "static/media/googleBookSearch.jpg.png": "/React-Portfolio/static/media/googleBookSearch.jpg.22047d6cad66007b1866.png",
-    "static/media/ktitle.png": "/React-Portfolio/static/media/ktitle.7cea1a3dbf9a3b491a77.png",
-    "static/media/webdeveloperResume.png": "/React-Portfolio/static/media/webdeveloperResume.1c75378c5e4c159665b5.png",
-    "static/media/WorkDayPlanner.png": "/React-Portfolio/static/media/WorkDayPlanner.d3246b1076e9bfbaa9b0.png",
-    "static/media/MovieSearch.png": "/React-Portfolio/static/media/MovieSearch.8da166f33e5759edab37.png",
-    "static/media/katelogo2.png": "/React-Portfolio/static/media/katelogo2.21156070bdd55e868210.png",
-    "static/media/JatebyKate.png": "/React-Portfolio/static/media/JatebyKate.e6433232b97faee8ca5e.png",
-    "static/media/helvetica-neu.ttf": "/React-Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff": "/React-Portfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
-    "static/media/LaBelleAurore.woff2": "/React-Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/CoolveticaRg-Regular.woff": "/React-Portfolio/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
-    "static/media/CoolveticaRg-Regular.woff2": "/React-Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/React-Portfolio/index.html",
-    "main.992d17d1.css.map": "/React-Portfolio/static/css/main.992d17d1.css.map",
-    "main.73bb9de8.js.map": "/React-Portfolio/static/js/main.73bb9de8.js.map"
+    "main.css": "/static/css/main.e69c66f5.css",
+    "main.js": "/static/js/main.d2169b55.js",
+    "static/media/UnderATack.png": "/static/media/UnderATack.2f557a41d86ceabcecff.png",
+    "static/media/selfie.png": "/static/media/selfie.b6ea2d6da814ada2a394.png",
+    "static/media/MovieClub.png": "/static/media/MovieClub.8e3d3641c060a962ad3d.png",
+    "static/media/googleBookSearch.jpg.png": "/static/media/googleBookSearch.jpg.22047d6cad66007b1866.png",
+    "static/media/ktitle.png": "/static/media/ktitle.7cea1a3dbf9a3b491a77.png",
+    "static/media/webdeveloperResume.png": "/static/media/webdeveloperResume.1c75378c5e4c159665b5.png",
+    "static/media/WorkDayPlanner.png": "/static/media/WorkDayPlanner.d3246b1076e9bfbaa9b0.png",
+    "static/media/MovieSearch.png": "/static/media/MovieSearch.8da166f33e5759edab37.png",
+    "static/media/katelogo2.png": "/static/media/katelogo2.21156070bdd55e868210.png",
+    "static/media/JatebyKate.png": "/static/media/JatebyKate.e6433232b97faee8ca5e.png",
+    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff": "/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/index.html",
+    "main.e69c66f5.css.map": "/static/css/main.e69c66f5.css.map",
+    "main.d2169b55.js.map": "/static/js/main.d2169b55.js.map"
   },
   "entrypoints": [
-    "static/css/main.992d17d1.css",
-    "static/js/main.73bb9de8.js"
+    "static/css/main.e69c66f5.css",
+    "static/js/main.d2169b55.js"
   ]
 }
