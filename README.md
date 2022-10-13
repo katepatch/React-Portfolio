@@ -15,8 +15,14 @@ Deployed via Github [Pages](https://katepatch.github.io/React-Portfolio/)
 ![screenshot](./screenshots/aboutme.png)
 
 ### About Me
-<!-- ![screenshot](./screenshots/portfolio.png)
-![screenshot](./screenshots/resume.png) -->
+
+![screenshot](./screenshots/portfolio.png)
+
+### Portfolio
+
+![screenshot](./screenshots/resume.png)
+
+### Resume
 
 ![screenshot](./screenshots/contact.png)
 
