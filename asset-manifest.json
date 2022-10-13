@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.37ccb843.css",
-    "main.js": "/React-Portfolio/static/js/main.2fa1fffc.js",
+    "main.css": "/React-Portfolio/static/css/main.8d9bb215.css",
+    "main.js": "/React-Portfolio/static/js/main.32133e49.js",
+    "static/media/UnderATack.png": "/React-Portfolio/static/media/UnderATack.2f557a41d86ceabcecff.png",
     "static/media/selfie.png": "/React-Portfolio/static/media/selfie.b6ea2d6da814ada2a394.png",
+    "static/media/MovieClub.png": "/React-Portfolio/static/media/MovieClub.8e3d3641c060a962ad3d.png",
     "static/media/ktitle.png": "/React-Portfolio/static/media/ktitle.7cea1a3dbf9a3b491a77.png",
     "static/media/katelogo2.png": "/React-Portfolio/static/media/katelogo2.21156070bdd55e868210.png",
     "static/media/helvetica-neu.ttf": "/React-Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -11,11 +13,11 @@
     "static/media/CoolveticaRg-Regular.woff": "/React-Portfolio/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
     "static/media/CoolveticaRg-Regular.woff2": "/React-Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/React-Portfolio/index.html",
-    "main.37ccb843.css.map": "/React-Portfolio/static/css/main.37ccb843.css.map",
-    "main.2fa1fffc.js.map": "/React-Portfolio/static/js/main.2fa1fffc.js.map"
+    "main.8d9bb215.css.map": "/React-Portfolio/static/css/main.8d9bb215.css.map",
+    "main.32133e49.js.map": "/React-Portfolio/static/js/main.32133e49.js.map"
   },
   "entrypoints": [
-    "static/css/main.37ccb843.css",
-    "static/js/main.2fa1fffc.js"
+    "static/css/main.8d9bb215.css",
+    "static/js/main.32133e49.js"
   ]
 }
