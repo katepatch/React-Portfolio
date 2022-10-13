@@ -9,10 +9,22 @@ Deployed via Github [Pages](https://katepatch.github.io/React-Portfolio/)
 ### Screenshots
 
 ![screenshot](./screenshots/home.png)
+
+### Homepage
+
 ![screenshot](./screenshots/aboutme.png)
+
+### About Me
 <!-- ![screenshot](./screenshots/portfolio.png)
 ![screenshot](./screenshots/resume.png) -->
+
 ![screenshot](./screenshots/contact.png)
+
+### Contact Me
+
+## Installation
+
+To install this, clone the repository.  Install the necessary packages by typing `npm i` into the command line.  In the terminal command line run `npm run start` to open this on your local host.
 
 ## Questions
 
