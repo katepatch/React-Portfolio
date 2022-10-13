@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import MovieClub from '../../assets/images/projects/MovieClub.png';
+import UnderATack from '../../assets/images/projects/UnderATack.png';
 
 const Portfolio = () => {
     
@@ -26,7 +27,15 @@ const Portfolio = () => {
             description: 'MySQL, Handlebars, Sequelize',
             github: 'https://github.com/Firm-Tofu10/MovieClub',
             url: 'https://movieclub3.herokuapp.com/login'
-        }
+        },
+        {
+            id: 1,
+            cover: UnderATack,
+            title: 'Under-A-Tack',
+            description: 'React, GraphQL, MongoDB, Mongoose, HTML, CSS',
+            github: 'https://github.com/Avenix17/Project-3-Under-a-tack',
+            url: 'https://underatackboard.herokuapp.com/'
+        },
     ]
 
     const renderPortfolio = (portfolio) => {
