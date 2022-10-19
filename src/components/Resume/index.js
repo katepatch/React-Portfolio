@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
-import KateResume from '../../assets/images/webdeveloperResume.png';
+import KateResume1 from '../../assets/images/resume1.png';
+import KateResume2 from '../../assets/images/resume2.png';
 
 
 const Resume = () => {
@@ -26,12 +27,18 @@ const Resume = () => {
                     />
                 </h1>
                 
+                
             </div>
             <div className='resume-container'>
                 <img
                     className='resume-pic'
-                    src={KateResume}
+                    src={KateResume1}
                     alt="Web Developer Resume"
+                />
+                <img
+                className='resume-pic'
+                src={KateResume2}
+                alt="Web Developer Resume"
                 />
             </div>
             
