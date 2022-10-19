@@ -13,16 +13,16 @@ function App() {
   return (
     <div>
       <BrowserRouter>
+      <Layout />
       <Sidebar />
      <Routes>
-        <Route exact path="/" element={<Layout />}>
-          <Route exact path="" element={<Home />} />
+        <Route exact path="/React-Portfolio" element={<Home />} />
           <Route exact path="about" element={<About />} />
           <Route exact path="portfolio" element={<Portfolio />} />
           <Route exact path="resume" element={<Resume />} />
           <Route exact path="contact" element={<Contact />} />
-        </Route>
-     </Routes>
+        
+      </Routes>
      </BrowserRouter>
     </div>
   );
