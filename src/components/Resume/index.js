@@ -26,6 +26,7 @@ const Resume = () => {
                         idx={15}
                     />
                 </h1>
+                <p>To view and download please click <a href="https://docs.google.com/document/d/1chRlXkkhFl-xwNDFsVGinbXnnm9ZQPCs6u15crC1RJ4/edit?usp=sharing" targe="_blank" rel="noopner noreferrer">here</a> </p>
                 
                 
             </div>
