@@ -53,8 +53,8 @@ const Portfolio = () => {
             cover: MovieSearch,
             title: 'Movie Search',
             description: 'HTML, CSS, JavaScript, APIs',
-            github: 'https://github.com/EdwardMock/Group-Project-1-Movie',
-            url: 'https://edwardmock.github.io/Group-Project-1-Movie/'
+            github: 'https://github.com/sixskillful/Group-Project-1-Movie',
+            url: 'https://sixskillful.github.io/Group-Project-1-Movie/'
         },
         {
             id: 4,
