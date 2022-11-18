@@ -1,4 +1,4 @@
-import "./index.scss";
+import "./index.css";
 import pic from '../../../assets/images/selfie.png'
 
 

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import './index.scss'
+import './index.css'
 import AnimatedLetters from '../AnimatedLetters'
 import Selfie from './Selfie/index'
 
